@@ -1,0 +1,190 @@
+/********* BASE STYLES ********/
+
+body {
+  font-family: 'Dosis', sans-serif;
+
+}
+
+#about, #contact {
+  height: 640px;
+
+}
+
+#skills {
+  height: 760px;
+
+}
+/********* GRID ***************/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+
+}
+/*** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+}
+
+header img {
+  padding: 20px 0 0 20px;
+
+}
+
+nav {
+    float: right;
+    padding: 40px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    font-size: 48px;
+    text-align: center;
+    line-height: 0px;
+    color: #363435;
+    padding: 40px 0 0 300px;
+}
+
+header h1 {
+    font-family: 'Clicker Script', cursive;
+    color: #black;
+    width: 1000px;
+    clear: both;
+    font-size: 84px;
+    text-align: center;
+    padding: 40px 0 0 300px;
+
+}
+
+/******* SKILLS *********/
+
+#skills h2 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#skills p {
+  width: 800px;
+  font-size: 18px;
+  line-height: 26pt;
+  padding-left: 200px;
+}
+
+#skills h3 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 80px;
+  margin-bottom: 0px;
+}
+
+#skills img {
+  margin-left: 60px;
+
+}
+
+/****** ABOUT *****/
+
+#about {
+  background-color: #efebe5;
+}
+
+#about h2 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#about img {
+  padding: 20px 0px 0px 120px;
+
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 26pt;
+}
+
+/****** CONTACT *******/
+
+#contact {
+  padding-top: 100px;
+  background-color: #666d4a;
+}
+
+#contact h1 {
+  font-size: 48px;
+  font-family: 'Clicker Script', cursive;
+  color: #fff;
+  padding-left: 50px;
+
+
+}
+
+#contact h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+
+}
+
+#contact a {
+  color: white;
+
+}
+
+#contact h3 {
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+  color:  white;
+  text-align: center;
+
+}
+
+#contact a img {
+  padding-left: 100px;
+
+}
+
+#contact img {
+  padding-left: 80px;
+
+}
+
+/***FOOTER SECTION***/
+
+footer {
+  color: #666d4a;
+  background-size: cover;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+
+}
